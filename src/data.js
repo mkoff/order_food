@@ -6,8 +6,7 @@ const restaurants = [
       lat: 51.51307933813641,
       lng: -0.13968944549560547,
     },
-    image:
-      'https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/12065623_177150569292352_3493242754411252126_n.jpg?_nc_cat=108&_nc_ht=scontent-waw1-1.xx&oh=94f9c77559a2f31edf4fd68a89b6dda7&oe=5D6D6D4A',
+    image: 'https://i.pinimg.com/originals/73/2d/4c/732d4cc10e9da5d442610f96c8570ec3.png',
     menu: [
       {
         id: 'd75f762a-eadd-49be-8918-ed0daa8dd024',
@@ -50,8 +49,7 @@ const restaurants = [
       lat: 51.51847684708113,
       lng: -0.13999606534701844,
     },
-    image:
-      'https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14492346_873920782710134_3797018371088115698_n.jpg?_nc_cat=108&_nc_ht=scontent-waw1-1.xx&oh=31de8f2906284981f858f7fdf36b0235&oe=5D6AA774',
+    image: 'https://i.pinimg.com/originals/e0/41/e7/e041e79329e950d91175cfe22ed8f4dd.png',
     menu: [
       {
         id: '25402233-0095-49ea-9939-1e67ed89ffb9',
@@ -94,7 +92,7 @@ const restaurants = [
       lat: 51.513614456342495,
       lng: -0.1284961359927072,
     },
-    image: 'http://fabrique.co.uk/wp-content/uploads/2012/11/our22.png',
+    image: 'https://casamiajupiter.com/site/wp-content/uploads/2017/10/casa_mia_favicon.png',
     menu: [
       {
         id: '08c9ffa0-d003-4310-9e15-20978743296e',
@@ -131,8 +129,7 @@ const restaurants = [
       lat: 51.51084146746025,
       lng: -0.12409270211070839,
     },
-    image:
-      'https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/602319_106412009502974_1112399097_n.jpg?_nc_cat=110&_nc_ht=scontent-waw1-1.xx&oh=c23931271965e9edd3921d559f7440ba&oe=5D6CC921',
+    image: 'https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png',
     menu: [
       {
         id: '6c02c2ce-b868-4191-b4a7-8686429f4bac',
