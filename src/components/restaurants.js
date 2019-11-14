@@ -8,7 +8,8 @@ class Restaurants extends Component {
             restaurants,
             //from decorator
             openItemId,
-            toggleOpen
+            toggleOpen,
+            closeItem
         } = this.props
         return (
             <ul>
@@ -19,6 +20,7 @@ class Restaurants extends Component {
                             restaurant={restaurant}
                             isOpen={openItemId === restaurant.id}
                             toggleOpen={toggleOpen}
+                            closeItem={closeItem}
                         />
                     )
                 )}
