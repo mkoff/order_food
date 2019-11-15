@@ -4,19 +4,14 @@ import Button from 'antd/es/button';
 
 class Restaurant extends PureComponent{
     render() {
-        const {isOpen, toggleOpen, restaurant, closeItem} = this.props;
-        const {id, image, name, menu} = restaurant;
+        const {isOpen, toggleOpen, restaurant} = this.props;
+        const {id, image, name, menu, reviews} = restaurant;
         return (
             <li>
                 <img width={80} height={80} src={image} alt={name}/>
                 <Button
                     type={"primary"}
-                    onClick={() => {
-                        closeItem ?
-                            toggleOpen(id)
-                        :
-                            toggleOpen(false)
-                    }}
+                    onClick={() => {toggleOpen(id)}}
                 >
                     {isOpen ? 'close' : 'open'}
                 </Button>

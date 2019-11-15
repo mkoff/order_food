@@ -8,9 +8,8 @@ class Restaurants extends Component {
             restaurants,
             //from decorator
             openItemId,
-            toggleOpen,
-            closeItem
-        } = this.props
+            toggleOpen
+        } = this.props;
         return (
             <ul>
                 {this.props.restaurants.map(
@@ -20,7 +19,6 @@ class Restaurants extends Component {
                             restaurant={restaurant}
                             isOpen={openItemId === restaurant.id}
                             toggleOpen={toggleOpen}
-                            closeItem={closeItem}
                         />
                     )
                 )}
